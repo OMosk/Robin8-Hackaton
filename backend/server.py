@@ -77,8 +77,7 @@ class Application(tornado.web.Application):
             (r'/', MainHandler),
             (r'/api?', WebSocket),
         )
-
-tornado.web.Application.__init__(self, handlers)
+        tornado.web.Application.__init__(self, handlers)
 
 application = Application()
 
