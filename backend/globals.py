@@ -1,0 +1,2 @@
+USERS_LIST = []
+ORDER_LIST = []
